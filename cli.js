@@ -2,6 +2,7 @@
 var tv = require("./tv.js");
 var command = process.argv[2];
 var name = process.argv.slice(3).join(" ");
+console.log(name);
 
 if(command === "show"){
 	theTv = new tv(name);
